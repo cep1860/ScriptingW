@@ -4,7 +4,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRe
 local Window = Library:AddWindow({
 	title = {"Ceps's Script Hub", "unfair"},
 	theme = {
-		Accent = Color3.fromRGB(0, 255, 0)
+		Accent = Color3.fromRGB(0, 0, 205)
 	},
 	key = Enum.KeyCode.RightControl,
 	default = true
@@ -73,4 +73,12 @@ local Section = Tab:AddSection("CertainGames", {default = false})
 -- Create Button
 local Button = Section:AddButton("poopdoors", function()
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
+end)
+
+
+
+
+-- Create Button
+local Button = Section:AddButton("Button", function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
