@@ -59,13 +59,18 @@ end)
 
 
 -- Create Tab
-local Tab2 = Window:AddTab("ColorPicker", {default = false})
+local Tab = Window:AddTab("CertainGames", {default = false})
 
 
 
 
--- Create Picker
-local Picker2 = Section:AddPicker("Picker", {color = Color3.fromRGB(255, 0, 0)}, function(color)
-	Window:SetAccent(color)
+-- Create Section
+local Section = Tab:AddSection("CertainGames", {default = false})
+
+
+
+
+-- Create Button
+local Button = Section:AddButton("Button", function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
 end)
-
