@@ -51,6 +51,6 @@ end)
 
 
 -- Create Button
-local Button = Section:AddButton("Button", function()
+local Button = Section:AddButton("Utilities Hub", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
 end)
