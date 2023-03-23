@@ -47,3 +47,10 @@ local Button = Section:AddButton("NukeVsCity", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
 end)
 
+
+
+
+-- Create Button
+local Button = Section:AddButton("Button", function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
+end)
