@@ -71,6 +71,6 @@ local Section = Tab:AddSection("CertainGames", {default = false})
 
 
 -- Create Button
-local Button = Section:AddButton("Button", function()
+local Button = Section:AddButton("poopdoors", function()
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))()
 end)
