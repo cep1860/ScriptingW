@@ -79,6 +79,6 @@ end)
 
 
 -- Create Button
-local Button = Section:AddButton("Button", function()
+local Button = Section:AddButton("unfair hub", function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
