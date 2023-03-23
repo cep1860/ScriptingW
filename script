@@ -59,7 +59,7 @@ end)
 
 
 -- Create Tab
-local Tab = Window:AddTab("ColorPicker", {default = false})
+local Tab2 = Window:AddTab("ColorPicker", {default = false})
 
 
 
