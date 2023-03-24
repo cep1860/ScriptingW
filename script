@@ -107,11 +107,3 @@ end)
 local Button = Section:AddButton("Dark Hub", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 end)
-
-
-
-
--- Create Button
-local Button = Section:AddButton("Button", function()
-	
-end)
